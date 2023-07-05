@@ -1,0 +1,12 @@
+execute if block ~ ~ ~ oak_sapling run function blockfactory:custom_blocks/saplings/set_oak
+execute if block ~ ~ ~ birch_sapling run function blockfactory:custom_blocks/saplings/set_birch
+execute if block ~ ~ ~ acacia_sapling run function blockfactory:custom_blocks/saplings/set_acacia
+execute if block ~ ~ ~ cherry_sapling run function blockfactory:custom_blocks/saplings/set_cherry
+execute if block ~ ~ ~ azalea run function blockfactory:custom_blocks/saplings/set_azalea
+execute if block ~ ~ ~ flowering_azalea run function blockfactory:custom_blocks/saplings/set_flowering_azalea
+execute if block ~ ~ ~ mangrove_propagule run function blockfactory:custom_blocks/saplings/set_mangrove
+execute if block ~ ~ ~ spruce_sapling run function blockfactory:custom_blocks/saplings/set_spruce
+execute if block ~ ~ ~ jungle_sapling run function blockfactory:custom_blocks/saplings/set_jungle
+execute if block ~ ~ ~ dark_oak_sapling run function blockfactory:custom_blocks/saplings/set_dark_oak
+execute if block ~ ~ ~ warped_fungus run function blockfactory:custom_blocks/saplings/set_warped
+execute if block ~ ~ ~ crimson_fungus run function blockfactory:custom_blocks/saplings/set_crimson

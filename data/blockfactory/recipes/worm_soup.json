@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:rabbit_foot"
+        },
+        {
+            "item": "minecraft:rabbit_foot"
+        },
+        {
+            "item": "minecraft:rabbit_foot"
+        },
+        {
+            "item": "minecraft:rabbit_foot"
+        },
+        {
+            "item": "minecraft:rabbit_foot"
+        },
+        {
+            "item": "minecraft:rabbit_foot"
+        },
+        {
+            "item": "minecraft:bowl"
+        }
+    ],
+    "result": {
+        "item": "minecraft:suspicious_stew",
+        "count": 1
+    }
+}
