@@ -19,11 +19,13 @@ A Minecraft datapack that imitates the SkyFactory modpack.
 - [ ] fan with dispencers (?)
 - [ ] item taker with enderchest minecart
 - [ ] nether
+- [ ] ender chest minecart
 
 ### Bugs
-- [x] runs block\_init twice
-- [x] extra entities of custom blocks dying after moved
-- [x] fast pistons killing custom blocks
+- [ ] add forceload remove
+- [x] ~~runs block\_init twice~~
+- [x] ~~extra entities of custom blocks dying after moved~~
+- [ ] fast pistons killing custom blocks
 - [x] silk worms not working
 - [x] cant place custom blocks in quick succesion
 - [x] slight bug with being able to fly away from a custom block before init
