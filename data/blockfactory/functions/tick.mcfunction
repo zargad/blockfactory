@@ -5,3 +5,4 @@ function blockfactory:silk_worms/tick
 function blockfactory:custom_blocks/tick
 function blockfactory:wood_chips/tick
 function blockfactory:veinminer/tick
+function blockfactory:ender_chest_minecart/tick
