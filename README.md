@@ -17,9 +17,8 @@ A Minecraft datapack that imitates the SkyFactory modpack.
 - [ ] smeltery
 - [ ] bamboo: enhanced sieving with trapdoor, scafholding, make obtainable (#dirt sieving probs) and balance
 - [ ] fan with dispencers (?)
-- [ ] item taker with enderchest minecart
+- [x] item taker with enderchest minecart
 - [ ] nether
-- [ ] ender chest minecart
 
 ### Bugs
 - [ ] add forceload remove
