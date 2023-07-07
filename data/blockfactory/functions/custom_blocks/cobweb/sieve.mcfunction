@@ -1,6 +1,7 @@
 kill @e[type=interaction,limit=1,sort=nearest]
 execute if entity @s[tag=compressed] run function blockfactory:custom_blocks/cobweb/compressed_sieve
 execute if entity @s[nbt={BlockState:{Name:"minecraft:calcite"}}] run loot spawn ~ ~1.2 ~ loot blockfactory:sieving/calcite
+execute if entity @s[nbt={BlockState:{Name:"minecraft:grass_block"}}] run loot spawn ~ ~1.2 ~ loot blockfactory:sieving/grass_block
 execute if entity @s[nbt={BlockState:{Name:"minecraft:gravel"}}] run loot spawn ~ ~1.2 ~ loot blockfactory:sieving/gravel
 execute if entity @s[nbt={BlockState:{Name:"minecraft:dirt_path"}}] run loot spawn ~ ~1.2 ~ loot blockfactory:sieving/dirt
 execute if entity @s[nbt={BlockState:{Name:"minecraft:farmland"}}] run loot spawn ~ ~1.2 ~ loot blockfactory:sieving/dirt

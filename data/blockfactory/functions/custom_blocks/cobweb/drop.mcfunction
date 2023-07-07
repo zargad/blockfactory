@@ -1,4 +1,5 @@
 execute if block ~ ~1 ~ calcite run summon minecraft:falling_block ~ ~.5 ~ {BlockState:{Name:"minecraft:calcite"}}
+execute if block ~ ~1 ~ grass_block run summon minecraft:falling_block ~ ~.5 ~ {BlockState:{Name:"minecraft:grass_block"}}
 execute if block ~ ~1 ~ farmland run summon minecraft:falling_block ~ ~.5 ~ {BlockState:{Name:"minecraft:farmland"}}
 execute if block ~ ~1 ~ dirt_path run summon minecraft:falling_block ~ ~.5 ~ {BlockState:{Name:"minecraft:dirt_path"}}
 execute if block ~ ~1 ~ dirt run summon minecraft:falling_block ~ ~.5 ~ {BlockState:{Name:"minecraft:dirt"}}
@@ -26,6 +27,7 @@ execute if block ~ ~1 ~ nether_wart_block run summon minecraft:falling_block ~ ~
 execute if block ~ ~1 ~ warped_wart_block run summon minecraft:falling_block ~ ~.5 ~ {BlockState:{Name:"minecraft:warped_wart_block"}}
 execute if entity @s[tag=!door,tag=!idoor] run setblock ~ ~1 ~ air
 execute if block ~ ~2 ~ calcite run summon minecraft:falling_block ~ ~.5 ~ {BlockState:{Name:"minecraft:calcite"}}
+execute if block ~ ~2 ~ grass_block run summon minecraft:falling_block ~ ~.5 ~ {BlockState:{Name:"minecraft:grass_block"}}
 execute if block ~ ~2 ~ dirt run summon minecraft:falling_block ~ ~.5 ~ {BlockState:{Name:"minecraft:dirt"}}
 execute if block ~ ~2 ~ rooted_dirt run summon minecraft:falling_block ~ ~.5 ~ {BlockState:{Name:"minecraft:rooted_dirt"},Tags:["compressed"]}
 execute if block ~ ~2 ~ gravel run summon minecraft:falling_block ~ ~.5 ~ {BlockState:{Name:"minecraft:gravel"}}
