@@ -1,1 +1,2 @@
+schedule clear blockfactory:ender_chest_minecart/make_particles
 schedule function blockfactory:ender_chest_minecart/make_particles 1s append
