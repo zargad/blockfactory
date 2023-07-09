@@ -15,7 +15,7 @@ A Minecraft datapack that imitates the SkyFactory modpack.
 - [ ] weighewin miner
 - [ ] smeltery
 - [x] bamboo: enhanced sieving with trapdoor, scafholding, make obtainable (#dirt sieving probs) and balance
-- [ ] fan with dispencers (?)
+- [x] fan with dispencers (?)
 - [x] item taker with enderchest minecart
 - [ ] nether
 - [ ] metal berries
@@ -26,6 +26,7 @@ A Minecraft datapack that imitates the SkyFactory modpack.
 - [ ] storage network (maybe)
 - [ ] custom dimensions
 - [ ] energy/electricity (maybe)
+- [ ] understand+fix delta for particles
 
 ### Bugs
 - [ ] add forceload remove
