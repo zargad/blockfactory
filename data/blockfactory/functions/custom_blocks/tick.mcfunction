@@ -1,4 +1,5 @@
 # tag @a[scores={placed_custom_block=0}] add first
+execute as @a run scoreboard players operation @s placed_custom_block += @s placed_dispenser
 execute as @a run scoreboard players operation @s placed_custom_block += @s placed_ochre
 execute as @a run scoreboard players operation @s placed_custom_block += @s placed_verdant
 execute as @a run scoreboard players operation @s placed_custom_block += @s placed_pearlescent
@@ -26,6 +27,7 @@ execute as @e[tag=customBlock] at @s run function blockfactory:custom_blocks/blo
 scoreboard players set @a[scores={is_sprinting=0..10}] is_sprinting 11
 # scoreboard players remove @a[scores={placed_custom_block=1..}] placed_custom_block 1
 scoreboard players reset @a placed_custom_block
+scoreboard players reset @a placed_dispenser
 scoreboard players reset @a placed_cobweb
 scoreboard players reset @a placed_oak_sapling
 scoreboard players reset @a placed_birch_sapling 

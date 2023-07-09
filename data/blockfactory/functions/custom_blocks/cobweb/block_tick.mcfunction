@@ -1,9 +1,10 @@
 scoreboard players set @s[tag=!sinit] used 5
 tag @s[tag=!sinit] add sinit
-execute if block ~ ~1 ~ #blockfactory:sieveable run function blockfactory:custom_blocks/cobweb/drop
-execute if entity @s[tag=door] if block ~ ~2 ~ #blockfactory:sieveable run function blockfactory:custom_blocks/cobweb/drop
-execute if entity @s[tag=idoor] if block ~ ~2 ~ #blockfactory:sieveable run function blockfactory:custom_blocks/cobweb/drop
-execute align y as @e[type=minecraft:falling_block,distance=..1,tag=!sieve] run summon interaction ~ ~1.4 ~ {width:1.1,height:1.2}
+execute unless entity @e[type=falling_block,distance=..0.5] if block ~ ~1 ~ #blockfactory:sieveable run function blockfactory:custom_blocks/cobweb/drop
+execute unless entity @e[type=falling_block,distance=..0.5] if entity @s[tag=door] if block ~ ~2 ~ #blockfactory:sieveable run function blockfactory:custom_blocks/cobweb/drop
+execute unless entity @e[type=falling_block,distance=..0.5] if entity @s[tag=idoor] if block ~ ~2 ~ #blockfactory:sieveable run function blockfactory:custom_blocks/cobweb/drop
+execute as @e[type=falling_block,tag=!n,distance=..0.5] at @s run function blockfactory:custom_blocks/cobweb/cancel
+execute align y as @e[type=minecraft:falling_block,distance=..1,tag=!sieve] run summon interaction ~ ~1.4 ~ {width:1.1,height:1.2,Tags:["sieve"]}
 execute align y as @e[type=minecraft:falling_block,distance=..1,tag=!sieve] run tag @s add sieve
 execute align y as @e[type=minecraft:falling_block,distance=..1,tag=sieve] at @s run tp @e[type=interaction,sort=nearest,limit=1] ~ ~ ~
 execute align y if entity @e[type=minecraft:falling_block,distance=..0.2] run scoreboard players remove @s used 1

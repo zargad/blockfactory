@@ -12,13 +12,20 @@ A Minecraft datapack that imitates the SkyFactory modpack.
 - [ ] special chickens && cows
 - [ ] advancements
 - [ ] all types of dirts in/to sieve
-- [ ] FIXBUGS
 - [ ] weighewin miner
 - [ ] smeltery
-- [ ] bamboo: enhanced sieving with trapdoor, scafholding, make obtainable (#dirt sieving probs) and balance
+- [x] bamboo: enhanced sieving with trapdoor, scafholding, make obtainable (#dirt sieving probs) and balance
 - [ ] fan with dispencers (?)
 - [x] item taker with enderchest minecart
 - [ ] nether
+- [ ] metal berries
+- [ ] composter/cauldron with hopper
+- [x] sieving queue
+- [ ] save the same item in bulk with decorated pot
+- [ ] builder wand
+- [ ] storage network (maybe)
+- [ ] custom dimensions
+- [ ] energy/electricity (maybe)
 
 ### Bugs
 - [ ] add forceload remove

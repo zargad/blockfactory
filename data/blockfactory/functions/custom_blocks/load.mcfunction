@@ -1,5 +1,6 @@
 scoreboard objectives add used dummy
 scoreboard objectives add placed_custom_block dummy
+scoreboard objectives add placed_dispenser minecraft.used:minecraft.dispenser
 scoreboard objectives add placed_ochre minecraft.used:minecraft.ochre_froglight
 scoreboard objectives add placed_verdant minecraft.used:minecraft.verdant_froglight
 scoreboard objectives add placed_pearlescent minecraft.used:minecraft.pearlescent_froglight
