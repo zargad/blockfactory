@@ -1,0 +1,15 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:composter",
+        "minecraft:short_grass",
+        "minecraft:cobweb",
+        "minecraft:composter",
+        "minecraft:crimson_fungus",
+        "minecraft:warped_fungus",
+        "minecraft:dispenser",
+        "#minecraft:froglight",
+        "#minecraft:saplings",
+        "#minecraft:cauldrons"
+    ]
+}

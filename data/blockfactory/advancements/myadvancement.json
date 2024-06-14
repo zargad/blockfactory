@@ -1,1 +1,0 @@
- {"criteria": {"requirement": {"trigger": "minecraft:placed_block","conditions": {"block": "minecraft:dragon_egg"}}},"rewards": {"function": "blockfactory:myfunction"}} 

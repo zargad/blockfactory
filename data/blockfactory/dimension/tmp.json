@@ -12,7 +12,7 @@
             "biome": "minecraft:the_void",
             "lakes": false,
             "features": false,
-            "structures": {}
+            "structure_overrides": []
         }
     }
 }
