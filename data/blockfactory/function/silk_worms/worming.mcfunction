@@ -28,6 +28,6 @@ execute unless block ~1 ~1 ~ #minecraft:leaves run scoreboard players add @s nei
 execute unless block ~-1 ~1 ~1 #minecraft:leaves run scoreboard players add @s neighbours 1
 execute unless block ~ ~1 ~1 #minecraft:leaves run scoreboard players add @s neighbours 1
 execute unless block ~1 ~1 ~1 #minecraft:leaves run scoreboard players add @s neighbours 1
-execute unless score @s neighbours matches 27 if predicate blockfactory:silk_worm_growth run function blockfactory:silk_worms/init
-execute if score @s neighbours matches 27 if predicate blockfactory:silk_worm_growth run data merge entity @s {Item:{id:"minecraft:cobweb"}}
+execute unless score @s neighbours >= max_neighbours var if predicate blockfactory:silk_worm_growth run function blockfactory:silk_worms/init
+execute if score @s neighbours >= max_neighbours var if predicate blockfactory:silk_worm_growth run data merge entity @s {item:{count:1,id:"minecraft:cobweb"}}
 # execute if predicate blockfactory:silk_worm_growth run setblock ~ ~ ~ cobweb
