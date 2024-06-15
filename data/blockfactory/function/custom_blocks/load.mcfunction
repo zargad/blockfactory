@@ -1,23 +1,3 @@
 scoreboard objectives add used dummy
 scoreboard objectives add placed_custom_block dummy
-scoreboard objectives add placed_dispenser minecraft.used:minecraft.dispenser
-scoreboard objectives add placed_ochre minecraft.used:minecraft.ochre_froglight
-scoreboard objectives add placed_verdant minecraft.used:minecraft.verdant_froglight
-scoreboard objectives add placed_pearlescent minecraft.used:minecraft.pearlescent_froglight
-scoreboard objectives add placed_oak_sapling minecraft.used:minecraft.oak_sapling
-scoreboard objectives add placed_grass minecraft.used:minecraft.short_grass
-scoreboard objectives add placed_birch_sapling minecraft.used:minecraft.birch_sapling
-scoreboard objectives add placed_acacia_sapling minecraft.used:minecraft.acacia_sapling
-scoreboard objectives add placed_spruce_sapling minecraft.used:minecraft.spruce_sapling
-scoreboard objectives add placed_cherry_sapling minecraft.used:minecraft.cherry_sapling
-scoreboard objectives add placed_jungle_sapling minecraft.used:minecraft.jungle_sapling
-scoreboard objectives add placed_dark_oak_sapling minecraft.used:minecraft.dark_oak_sapling
-scoreboard objectives add placed_mangrove_propagule minecraft.used:minecraft.mangrove_propagule
-scoreboard objectives add placed_azalea minecraft.used:minecraft.azalea
-scoreboard objectives add placed_flowering_azalea minecraft.used:minecraft.flowering_azalea
-scoreboard objectives add placed_crimson_fungus minecraft.used:minecraft.crimson_fungus
-scoreboard objectives add placed_warped_fungus minecraft.used:minecraft.warped_fungus
-scoreboard objectives add placed_cobweb minecraft.used:minecraft.cobweb
-scoreboard objectives add placed_cauldron minecraft.used:minecraft.cauldron
-scoreboard objectives add placed_composter minecraft.used:minecraft.composter
 # schedule function blockfactory:custom_blocks/update_init 10s append
