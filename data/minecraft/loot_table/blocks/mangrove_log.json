@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:mangrove_log",
+          "name": "minecraft:crimson_stem",
           "conditions": [
             {
               "condition": "minecraft:inverted",
@@ -27,8 +27,12 @@
           "name": "minecraft:hanging_roots",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Wood Chips\\\",\\\"italic\\\":\\\"false\\\"}\"}}"
+              "function": "minecraft:set_name",
+              "target": "custom_name",
+              "name": {
+                "text": "Wood Chips",
+                "italic": false
+              }
             },
             {
               "function": "minecraft:set_count",
@@ -57,5 +61,6 @@
       ]
     }
   ],
-  "random_sequence": "minecraft:blocks/mangrove_log"
+  "random_sequence": "minecraft:blocks/crimson_stem"
 }
+

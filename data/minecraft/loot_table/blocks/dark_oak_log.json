@@ -27,8 +27,12 @@
           "name": "minecraft:hanging_roots",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Wood Chips\\\",\\\"italic\\\":\\\"false\\\"}\"}}"
+              "function": "minecraft:set_name",
+              "target": "custom_name",
+              "name": {
+                "text": "Wood Chips",
+                "italic": false
+              }
             },
             {
               "function": "minecraft:set_count",
