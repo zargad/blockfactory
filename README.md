@@ -29,10 +29,10 @@ A Minecraft datapack that imitates the SkyFactory modpack.
 - [ ] understand+fix delta for particles
 
 ### Bugs
-- [ ] add forceload remove
+- [x] add forceload remove
 - [x] ~~runs block\_init twice~~
 - [x] ~~extra entities of custom blocks dying after moved~~
-- [ ] fast pistons killing custom blocks
+- [x] fast pistons killing custom blocks
 - [x] silk worms not working
 - [x] cant place custom blocks in quick succesion
 - [x] slight bug with being able to fly away from a custom block before init

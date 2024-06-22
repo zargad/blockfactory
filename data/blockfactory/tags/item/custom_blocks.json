@@ -12,6 +12,7 @@
         "minecraft:ochre_froglight",
         "minecraft:pearlescent_froglight",
         "minecraft:cauldron",
+        "#blockfactory:pistons",
         "#minecraft:saplings"
     ]
 }

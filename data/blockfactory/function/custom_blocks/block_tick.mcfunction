@@ -1,4 +1,4 @@
-execute unless block ~ ~ ~ #blockfactory:custom_blocks run function blockfactory:custom_blocks/ok
+execute unless block ~ ~ ~ #blockfactory:custom_blocks run kill @s
 execute if block ~ ~ ~ dispenser run function blockfactory:custom_blocks/dispenser/block_tick
 execute if block ~ ~ ~ #minecraft:saplings run function blockfactory:custom_blocks/saplings/block_tick
 execute if block ~ ~ ~ crimson_fungus run function blockfactory:custom_blocks/saplings/block_tick
@@ -6,6 +6,7 @@ execute if block ~ ~ ~ warped_fungus run function blockfactory:custom_blocks/sap
 execute if block ~ ~ ~ cobweb run function blockfactory:custom_blocks/cobweb/block_tick
 execute if block ~ ~ ~ composter run function blockfactory:custom_blocks/composter/block_tick
 execute if block ~ ~ ~ short_grass run function blockfactory:custom_blocks/grass/block_tick
+execute if block ~ ~ ~ #blockfactory:pistons run function blockfactory:custom_blocks/piston/block_tick
 execute if block ~ ~ ~ #minecraft:cauldrons run function blockfactory:custom_blocks/cauldron/block_tick
 execute if block ~ ~ ~ #minecraft:froglight run function blockfactory:custom_blocks/froglight/block_tick
 execute as @e[tag=dirt,type=block_display] at @s unless block ~ ~ ~ composter[level=0] run function blockfactory:custom_blocks/composter/break_dirt

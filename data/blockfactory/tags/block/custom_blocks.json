@@ -8,6 +8,7 @@
         "minecraft:crimson_fungus",
         "minecraft:warped_fungus",
         "minecraft:dispenser",
+        "#blockfactory:pistons",
         "#minecraft:froglight",
         "#minecraft:saplings",
         "#minecraft:cauldrons"
