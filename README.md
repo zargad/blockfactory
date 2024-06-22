@@ -19,7 +19,7 @@ A Minecraft datapack that imitates the SkyFactory modpack.
 - [x] item taker with enderchest minecart
 - [ ] nether
 - [ ] metal berries
-- [ ] composter/cauldron with hopper
+- [x] ~~composter/cauldron with hopper~~
 - [x] sieving queue
 - [ ] save the same item in bulk with decorated pot
 - [ ] builder wand
